@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    /* width: 1000px; */
+    /* margin: auto; */
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-links {
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-list{
+    list-style: none;
+    margin: 20px;
+}
+
+button {
+    background-color: #1FA5BA;
+    color: white;
+    box-shadow: 2px 2px;
+    height: 30px;
+    width: 90px;
+}
+.main {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    /* min-width: 800px; */
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+.col>div{
+    margin-bottom: 20px;
+    
+}
+
+.test {
+    background-color: #1FA5BA;
+    height: 100px;
+    
+}
+
+.h2 {
+    background-color: #343434;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.prof {
+    width: 500px;
+    height: 350px;
+    background-color:white;
+    
+}
+.prof-pic{
+    height: 70px;
+    width: 70px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.prof-info {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.prof-list{
+    list-style: none;
+    
+}
+.location {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.loc-name{
+    justify-content: center;
+}
+
+.map-pin{
+    height: 20px;
+    width: 10px;
+    margin-right: 20px;
+}
+
+.edit-profile{
+    display: flex;
+}
+.gear-pic{
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+}
+
+.edit-link {
+    justify-content: center;
+}
+
+.edit-profile {
+    margin-top: 10px;
+}
+
+.gear-pic {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.edu {
+    background-color: white;
+    height:220px;
+}
+.edu-header {
+    background-color: #343434;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.edu-h2 {
+    margin-left: 20px;
+}
+
+.edu-content{
+    margin: 20px;
+}
+
+.edu-date{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.conreq {
+    background-color: white;
+    height: 230px;
+    width: 500px;
+}
+.cr-i-n{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CR-names{
+    margin-left: 20px;
+}
+.CR-notif{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: lightslategray;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conreq img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: black;
+}
+.toddE{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.philK{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.con {
+    border: lightslategrey;
+    height: 400px;
+    background-color: white;
+    outline-color: black;
+}
+
+.YC-num{
+    height: 40px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: lightslategrey;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adrien{
+    display: flex;
+}
+
+.anne{
+    display: flex;
+}
+
+.alayne{
+    display: flex;
+}
+
+.arry{
+    display: flex;
+}
+.YC-list img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.list-names{
+    display: flex;
+    align-items: center;
+}
+.view-more{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}

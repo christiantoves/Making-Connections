@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav-left">
+                <h1 class="nav-profile">Profile</h1>
+                <ul class="nav-links" >
+                    <li class="nav-list">Home</li>
+                    <li class="nav-list">My Profile</li>
+                    <li class="nav-list">Find Connections</li>
+                </ul>
+            </div>
+            <button>Sign Out</button>
+        </div>
+        <div class="main">
+            <div class="col">
+                <div class="prof">
+                    <div class="test">
+                        <img class="prof-pic" src="user-circle.png" alt="">
+                    </div>
+                    <div class="prof-info">
+                        <h1 id="h1">Christian Toves</h1>
+                        <div class="location">
+                            <img class="map-pin" src="map-marker.png" alt="">
+                            <p class="loc-name">North Hollywood, CA</p>
+                        </div>
+                        <ul class="prof-list" >
+                            <li>Developer | Flight Attendant | Singer</li>
+                            <li>Master of shadows and the Internet</li>
+                        </ul>
+                        <div class="edit-profile">
+                            <img class="gear-pic" src="gear.png" alt="">
+                            <a onclick="editProfile()" class="edit-link" href="#">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu">
+                    <div class="edu-header" >
+                        <h2 class="edu-h2">Education</h2>
+                    </div>
+                    <div class="edu-content">
+                        <h3 class="edu-title">Coding Dojo - Full Stack Bootcamp</h3>
+                        <p class="edu-date">May 2021 - Aug 2021</p>                    
+                        <p class="edu-info">Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="conreq">
+                    <header class="h2">
+                        <h2 class="CR-notif">2</h2>
+                        <h2>Connection Request</h2>
+                    </header>
+                    <div id="te" class="toddE">
+                        <div class="cr-i-n">
+                            <img src="todd-s.jpg" alt="">
+                            <h3 class="CR-names">Todd E</h3>
+                        </div>
+                        <div>
+                            <img onclick="removeConnection1()" id = "cr-accept"class="CR-reply" src="accept-circle.png" alt="">
+                            <img id = "cr-deny" class="CR-reply" src="close-circle.png" alt="">
+                        </div>
+                    </div>
+                    <div class="philK">
+                        <div id = "pk" class="cr-i-n">
+                            <img src="phil-s.jpg" alt="">
+                            <h3 class="CR-names">Phil K</h3>
+                        </div>
+                        <div class="cr-names">
+                            <img onclick = "removeConnection2()" class="CR-reply" src="accept-circle.png" alt="">
+                            <img class="CR-reply" src="close-circle.png" alt="">
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="con">
+                    <header class="h2">
+                        <h2 class="YC-num">500</h2>
+                        <h2>Your Connections</h2>
+                    </header>
+                    <div class="YC-list">
+                        <div class="adrien">
+                            <img src="adrien-s.jpg" alt="">
+                            <h3 class="list-names">Adrien D</h3>
+                        </div>
+                        <div class="anne">
+                            <img src="anne-s.jpg" alt="">
+                            <h3 class="list-names">Anne J</h3>
+                        </div>
+                        <div class="alayne">
+                            <img src="alayne-s.jpg" alt="">
+                            <h3 class="list-names">Alyne T</h3>
+                        </div>
+                        <div class="arry">
+                            <img src="arry-s.jpg" alt="">
+                            <h3 class="list-names">Arry Y</h3>
+                        </div>
+                        <div class="view-more">
+                            <a href="">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
